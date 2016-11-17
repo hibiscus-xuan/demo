@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /*background-color: black;*/
+
+}
+.circle {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border: 5px solid gold;
+    background: url("../images/direct-bg.png")no-repeat;
+    background-position: center;
+    background-repeat: repeat;
+
+}
+.container .top{
+    width: 100%;
+    height: 80px;
+    /*background: papayawhip;*/
+
+}
+.top img{
+    width: 180px;
+    height: 65px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.login{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 10px;
+}
+.login ul{
+    width: 200px;
+    height: 100px;
+}
+.login a{
+    margin-top: 35px;
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background: #6d7a9a;
+    border-bottom: 4px solid #49587d;
+    line-height: 30px;
+}
+.login a:hover{
+    opacity:.8;
+}
+.login a span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#sign_up span{
+    background: url("../images/11.png")no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+#sign_in span{
+    background: url("../images/12.png")no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main .items{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+/* 设置每一项的坐标和背景*/
+.main .items .item{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background: url("../images/enter-bg.png")no-repeat;
+    background-size: 150px 150px;
+    position: absolute;
+}
+.as{
+    left: 10%;
+    top:  120px;
+}
+.bs{
+    left: 27%;
+    top:  30px;
+}
+.cs{
+    right: 30%;
+    top:50px;
+}
+.ds{
+    right: 10%;
+    top: 50px;
+}
+.es{
+    left: 10%;
+    top:  300px;
+}
+.fs{
+    left: 28%;
+    top:  330px;
+}
+.gs{
+    right: 12%;
+    top:  240px;
+}
+.hs{
+    right: 38%;
+    top:300px;
+}
+.item a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 150px;
+}
+.item span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/enter-hover.png")no-repeat;
+    background-position: center;
+    background-size: 143% 143%;
+    display: none;
+    left: -9px;
+    top: 16px;
+    z-index: 3;
+    border-radius: 70px;
+    box-shadow: 10px;
+}
+/* 鼠标移入显示span*/
+.item a:hover span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/enter-hover.png")no-repeat;
+    background-position: center;
+    background-size: 143% 143%;
+    left: -9px;
+    top: 16px;
+    z-index: 3;
+    box-shadow: 10px;
+    box-sizing: content-box;
+    border-radius: 70px;
+}

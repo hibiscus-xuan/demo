@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+.circle {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border: 5px solid gold;
+    background: url("../images/ba.png")no-repeat;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.content{
+    width: 80%;
+    height: 80%;
+    margin: 100px auto;
+    margin-left: 25%;
+    position: relative;
+}
+.content form{
+    color: #4B515F;
+    font-size: 20px;
+}
+.content form span{
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+
+}
+.content form span:nth-child(1){
+    background: url("../images/14.png");
+    left: 20px;
+    top: 18px;
+}
+.content form span:nth-child(3){
+    background: url("../images/13.png");
+    left: 20px;
+    top: 103px;
+}
+.content form input{
+    width: 60%;
+    height: 60px;
+    background: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 50px;
+    color: white;
+    display: block;
+}
+#btn{
+    margin-left: 20%;
+    width: 150px;
+    height: 50px;
+    background-color: #FFCC00;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border-bottom: 3px solid #b38f01;
+    padding: 0;
+    display: inline-block;
+}
+
+.login{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}

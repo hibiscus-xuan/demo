@@ -1,0 +1,56 @@
+{
+  "name": "layer",
+  "version": "0.1.0",
+  "private": false,
+  "description": "transparently proxies functions, objects",
+  "author": {
+    "name": "lovebear"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "proxy",
+    "transparent",
+    "proxies"
+  ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "uglify-js": "*",
+    "should": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovebear/layer.git"
+  },
+  "readmeFilename": "README.md",
+  "_id": "layer@0.1.0",
+  "dist": {
+    "shasum": "76f8abcceec27f0fafb6c523627749c6b4ec8a1c",
+    "size": 7176,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/layer/download/layer-0.1.0.tgz"
+  },
+  "_resolved": "https://registry.npm.taobao.org/layer/download/layer-0.1.0.tgz",
+  "_from": "layer@latest",
+  "_npmVersion": "1.2.14",
+  "_npmUser": {
+    "name": "lovebear",
+    "email": "hheennrryy@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "hnry",
+      "email": "hheennrryy@gmail.com"
+    }
+  ],
+  "directories": {},
+  "publish_time": 1363031045834,
+  "_cnpm_publish_time": 1363031045834,
+  "_shasum": "76f8abcceec27f0fafb6c523627749c6b4ec8a1c"
+}
